@@ -6,11 +6,11 @@ df = pd.read_csv('https://raw.githubusercontent.com/dvd1587/dash_temp_anomalies/
 
 app = Dash()
 
-app.layout = [
+app.layout = html.Div([
     html.H1(children='Annual Temperature Anomalies Time-Series (1991-2020 mean in '+chr(176)+'C)', style={'textAlign':'center'}),
     dcc.Dropdown(df.Entity.unique(), 'India', id='dropdown-selection'),
     dcc.Graph(id='graph-content')
-]
+])
 
 @callback(
     Output('graph-content', 'figure'),
@@ -19,4 +19,7 @@ app.layout = [
 def update_graph(value):
     dff = df[df.Entity==value]
     return px.line(dff, x='Year', y='Temperature anomaly')
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
