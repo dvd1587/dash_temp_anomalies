@@ -20,5 +20,3 @@ def update_graph(value):
     dff = df[df.Entity==value]
     return px.line(dff, x='Year', y='Temperature anomaly')
 
-if __name__ == '__main__':
-    app.run(debug=True)
