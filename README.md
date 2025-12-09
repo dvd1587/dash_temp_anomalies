@@ -14,7 +14,11 @@ A simple plotly dashboard that shows the plot of the annual temperature anomalie
 
 <p align="center">
 Snapshot: <br/>
-<a href="https://imgur.com/Vm3rLP7"><img src="https://i.imgur.com/Vm3rLP7.jpg" alt="Annual Temperature Anomalies" /></a>  
+<a href="https://drive.google.com/uc?export=view&id=1fOuhHzX2zuW5VLi1fro3DEIAxXr0NJ3z"><img src="https://drive.google.com/uc?export=view&id=1fOuhHzX2zuW5VLi1fro3DEIAxXr0NJ3z" /></a>  
+</p>
+
+<p align="center">
+<a href="https://drive.google.com/uc?export=view&id=1suba2YxjT0YGVMhK2pQSt836zwHxrFgp"><img src="https://drive.google.com/uc?export=view&id=1suba2YxjT0YGVMhK2pQSt836zwHxrFgp" /></a>  
 </p>
 
 <!--
